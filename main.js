@@ -2,7 +2,8 @@ const app = Vue.createApp ({
     data() {
         return {
             product: 'Socks',
-            description: 'Description: They are available in two colours and are woolen socks.'
+            description: 'Description: They are available in two colours and are woolen socks.',
+            image: './assets/images/sockd_green.jpg',
         }
     }
 })
